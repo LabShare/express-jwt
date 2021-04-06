@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/auth0/express-jwt.git"
+    "url": "git://github.com/LabShare/express-jwt.git"
   },
   "bugs": {
-    "url": "http://github.com/auth0/express-jwt/issues"
+    "url": "http://github.com/LabShare/express-jwt/issues"
   },
   "author": {
     "name": "Matias Woloski",
@@ -44,7 +44,8 @@
     "node": ">= 8.0.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "semantic-release": "semantic-release"
   },
   "release": {
     "extends": "@labshare/semantic-release-config"
