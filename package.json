@@ -1,5 +1,5 @@
 {
-  "name": "express-jwt",
+  "name": "@labshare/express-jwt",
   "version": "6.0.0",
   "description": "JWT authentication middleware.",
   "keywords": [
@@ -36,6 +36,7 @@
     "lodash.set": "^4.0.0"
   },
   "devDependencies": {
+    "@labshare/semantic-release-config": "^1.1.3",
     "conventional-changelog": "~1.1.0",
     "mocha": "^7.1.1"
   },
@@ -44,5 +45,8 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec"
+  },
+  "release": {
+    "extends": "@labshare/semantic-release-config"
   }
 }
